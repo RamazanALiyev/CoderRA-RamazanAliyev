@@ -8,6 +8,7 @@ import StudentSwiper from "./components/MainCoderra/StudentSwiper/StudentSwiper"
 import { Maincontext } from "./context";
 import { Routes, Route } from "react-router-dom";
 import Connect from "./pages/Connect/Connect";
+import Loading from './pages/Loading/Loading';
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -15,7 +16,7 @@ function App() {
   const [forCourseApply, setForCourseApply] = useState(false);
   setTimeout(() => {
     setLoading(false);
-  }, 100);
+  }, 5000);
   const data = {
     apply,
     setApply,
@@ -25,7 +26,7 @@ function App() {
   return (
     <Maincontext.Provider value={data}>
       {loading ? (
-        <div>loading...</div>
+        <Loading />
       ) : (
         <div className="App">
           <Header />

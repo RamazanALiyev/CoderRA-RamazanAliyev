@@ -5,6 +5,7 @@ import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import { EffectCoverflow, Pagination, Autoplay } from "swiper";
 import Student1 from "../../../assets/Student1.jpeg";
+import Student3 from "../../../assets/Student3.jpeg";
 
 export default function App() {
   return (
@@ -73,6 +74,45 @@ export default function App() {
             canlandırdınız. Və bu özgüvəni yaratdınız .Bu sahəyə hevesi olan bir
             çox gəncə öyrənmək üçün yol açdınız. Mən bu sehifeni kəşf etdiyim
             üçün çox şanslıyam.Coderra.az xüsusi teşekkürlerimi bildirirəm.
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className="swiper-slide">
+          <img src={Student3} alt="pic" />
+          <h3 className="person">Elchin Sadatov</h3>
+          <p className="watcher">
+            <span>'coderra.az'</span>tələbəsi
+          </p>
+          <hr />
+          <div className="personText">
+            İlk öncə salam .demək istədiyim front-endə yonələndən sonra evdə tək
+            özün öyrənmək açıqcası çox çətin oldu . 1 gün internetdən öyrəndim 2
+            günü bəhanələrlə özümü aldadaraq davam edirdim . Təsadüf İnstagramda
+            gəzən zaman sizin Coderra səhifənizi gördüm. və dərslərinizə
+            qoşuldum .həqiqətən çox anlaşılır şəkildə izahınızla bir çox şeyi
+            öyrənmiş oldum və davam edirəm. çox insan belə bir yaxşılıq eləməz .
+            bildiklənizi bizimlə bölüşdüyünüzə görə sizə çox təşəkkür edirəm
+            müəllim.ümid varam məndə sizin kimi front-endi oyrenib bir developer
+            ola bilərəm.🙂
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className="swiper-slide">
+          <img src={Student1} alt="pic" />
+          <h3 className="person">Ramazanlı Aytac</h3>
+          <p className="watcher">
+            <span>'coderra.az'</span>tələbəsi
+          </p>
+          <hr />
+          <div className="personText">
+            Ramazan müəllimin keçdiyi front end dərsləri bir çox tədrisçilərin
+            keçdiyi dərslərdən müəyyən kriteriyalarına görə çox fərqlənir. Ən
+            bəsit mərhələlərin izahında belə Ramazan müəllim bizdən hər hansı
+            qaranlıq qalan məsələ haqqında suallarımızı verməyimizi istəyir,
+            sual yaranarsa belə tələbə tam başa düşənə və praktikada tətbiq edə
+            bilənə qədər təkrar izah edir. Praktika qeyd etmişkən, hər bir dərs
+            mütləq və mütləq nümunələr üzərində izah edilir, dərsdən sonra
+            müstəqil işləmək üçün tapşırıqlar verilir.Dərsdənkənar müstəqil
+            çalışmaları həll edərkən tələbənin sualları olarsa, müəllim köməklik
+            göstərir.
           </div>
         </SwiperSlide>
       </Swiper>
