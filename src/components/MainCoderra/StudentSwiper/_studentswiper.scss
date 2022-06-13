@@ -1,0 +1,116 @@
+$breakpoint-phone: 600px;
+.swiper-slide.swiper-slide-visible.swiper-slide-active{
+  border: 1px solid lightblue;
+  border-radius: 15px;
+}
+.swiper-slide.swiper-slide-visible.swiper-slide-next{
+  background-image: linear-gradient(to top, lightblue, lightgray);
+  border-radius: 15px;
+}
+.swiper-slide.swiper-slide-visible.swiper-slide-prev{
+  background-image: linear-gradient(to top, lightblue, lightgray);
+  border-radius: 15px;
+}
+.Swiper {
+  padding: 140px 30px;
+  background: #f8f9fa;
+  height: 110vh;
+  h3.students {
+    text-align: center;
+    font-size: 34px;
+    color: #2e3a59;
+  }
+  p.opinion{
+    text-align: center;
+    font-size: 26px;
+    color: gray;
+    margin: 20px 0;
+  }
+  .mySwiper {
+    width: 100%;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .swiper-wrapper {
+      display: flex;
+      align-items: center;
+      .swiper-slide {
+        background-position: center;
+        background-size: cover;
+        width: 620px;
+        height: 340px;
+        padding: 15px 10px;
+        overflow: scroll;
+        &::-webkit-scrollbar {
+          display: none;
+        }
+        img {
+          display: block;
+          width: 22%;
+          height: 40%;
+          border-radius: 50%;
+          float: left;
+          object-fit: cover;
+          margin: 0 15px 5px 0;
+          shape-outside: circle(50%);
+        }
+        .person {
+          font-family: "Courgette", cursive;
+          font-weight: 600;
+          color: crimson;
+          font-size: 22px;
+          text-align: end;
+          width: 40%;
+          margin-right: 10px;
+          display: inline-block;
+          letter-spacing: 1px;
+        }
+        .watcher {
+          text-align: center;
+          display: inline-block;
+          font-family: "Lato", sans-serif;
+          font-style: italic;
+          span {
+            color: dodgerblue;
+            margin-right: 3px;
+          }
+        }
+        .personText {
+          font-size: 14px;
+          line-height: 20px;
+          font-family: "Roboto", sans-serif;
+          font-weight: 300;
+          letter-spacing: 1px;
+        }
+      }
+    }
+  }
+}
+.Swiper{
+  @media (max-width: $breakpoint-phone) {
+    padding: 80px 10px; 
+    height: 85vh;
+  }
+}
+.Swiper .mySwiper .swiper-wrapper{
+  transform-style: flat;
+}
+.Swiper .mySwiper .swiper-wrapper .swiper-slide{
+  @media (max-width: $breakpoint-phone) {
+    width: 100%;
+    img{
+      width: 28%;
+      height: 30%;
+      object-fit: cover;
+    }
+    .person{
+      width: 64%;
+      text-align: center;
+    }
+    .watcher{
+      width: 55%;
+      margin-top: 5px;
+    }
+  }
+}

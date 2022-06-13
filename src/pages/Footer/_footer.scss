@@ -1,0 +1,23 @@
+$breakpoint-phone: 600px;
+.Footer{
+  @media (max-width: $breakpoint-phone) {
+    height: 10vh;
+  }
+  height: 30vh;
+  background-color: #262626;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  p{
+    color: #fff;
+    font-size: 32px;
+    font-family: "Indie Flower", cursive;
+    letter-spacing: 2px;
+    font-style: italic;
+    @media (max-width: $breakpoint-phone) {
+      text-align: center;
+      line-height: 40px;
+      font-size: 16px;
+    }
+  }
+}
