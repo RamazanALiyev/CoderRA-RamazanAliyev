@@ -1,19 +1,16 @@
-import React from 'react'
-import { useEffect } from 'react';
-import { useLocation } from 'react-router-dom';
-
+import React from "react";
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 
 const ToTop = () => {
-    const {pathname} = useLocation();
+  const { pathname } = useLocation();
 
-    useEffect(() =>{
-        window.scrollTo({
-            top:0
-        })
-    } ,[pathname])
-  return (
-    <div>ToTop</div>
-  )
-}
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+    });
+  }, [pathname]);
+  return <div></div>;
+};
 
-export default ToTop
+export default ToTop;

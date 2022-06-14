@@ -5,7 +5,9 @@ import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import { EffectCoverflow, Pagination, Autoplay } from "swiper";
 import Student1 from "../../../assets/Student1.jpeg";
+import Student2 from "../../../assets/Student2.jpeg";
 import Student3 from "../../../assets/Student3.jpeg";
+import Student4 from "../../../assets/Student4.jpeg";
 
 export default function App() {
   return (
@@ -42,38 +44,37 @@ export default function App() {
             Salam ,dersler haqqinda tek kelime ile deye bilerem ki,
             mükemmeldir🙂. İzahiniz aydindir ,dilinizi rahat şekilde anlamaq
             olur. Anlatim şekliniz elediki insan yorulmur,sıxılmır ,yeni neçe
-            saat davam etse de dersiniz biz hevesle dinleyerik).Sizin derslere
+            saat davam etse de dersiniz biz hevesle dinleyerik. Sizin derslere
             başlayanda front end haqqinda heç biliyim yox idi ,indi amma dersler
             sayesinde müeyyen qeder Html ,Css baresinde bilirem ve ümid edirem
             ki, daha da tekmilleşer🙂. Birde bu saheye nece addimladiğinizi
             çetinliklerle qarşilaşdiginizda neler etdiyinizi ,pes etmemek üçün
             nece motivasiya oldugunuzu deseniz (çünki derslerin birinde demişdiz
-            ki Javascripti oyrenen de cetinliye gore bir ara proqramlasdirmanin
-            basini buraxmaq isteyirdim,ona gore mene de maraqli geldi bu
-            haqqinda) bizde memnun olariq ki, yol çize bilek özümüz üçün ve bu
-            yol üçün de bu yolu çizmiş birinin dediklerini eşitsek daha da yaxşi
-            olar mence.
+            olar mence. ki Javascripti oyrenen de cetinliye gore bir ara
+            proqramlasdirmanin basini buraxmaq isteyirdim,ona gore mene de
+            maraqli geldi bu haqqinda) bizde memnun olariq ki, yol çize bilek
+            özümüz üçün ve bu yol üçün de bu yolu çizmiş birinin dediklerini
+            eşitsek daha da yaxşi
           </div>
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
-          <img src={Student1} alt="pic" />
-          <h3 className="person">Ramazanlı Aytac</h3>
+          <img src={Student2} alt="pic" />
+          <h3 className="person">Hamid Pashayev</h3>
           <p className="watcher">
             <span>'coderra.az'</span>tələbəsi
           </p>
           <hr />
           <div className="personText">
-            Bu səhifəni kəsf edəndən bəri heç bir dərsi qaçırmıram. Müəllim hər
-            bir şeyi en xırda ayrıntısına kimi izah edir . Heç bir sual işarəsi
-            qalmır ağılda . Həmçinin müəllim çox həvəslidir və buda bizi
-            öyrənmək istəyənləri çox motive edir. Hər beyninizdə yaranan sualı
-            ətraflı şəkildə izah olunur. Bundan əlavə dərslər recorda olunur
-            buda ayrı bir üstünlükdür. Və dərslər həftədə 2 dəfə hətta 3 dəfə də
-            olur. Müəllim çəkdiyi dərslər sayəsində bir çox şey öyrəndim.
-            Temennasız şekilde bir çox tələbənin bu sahəyə olan hevesini
-            canlandırdınız. Və bu özgüvəni yaratdınız .Bu sahəyə hevesi olan bir
-            çox gəncə öyrənmək üçün yol açdınız. Mən bu sehifeni kəşf etdiyim
-            üçün çox şanslıyam.Coderra.az xüsusi teşekkürlerimi bildirirəm.
+            Ramazan müəllimin keçdiyi front end dərsləri bir çox tədrisçilərin
+            keçdiyi dərslərdən müəyyən kriteriyalarına görə çox fərqlənir. Ən
+            bəsit mərhələlərin izahında belə Ramazan müəllim bizdən hər hansı
+            qaranlıq qalan məsələ haqqında suallarımızı verməyimizi istəyir,
+            sual yaranarsa belə tələbə tam başa düşənə və praktikada tətbiq edə
+            bilənə qədər təkrar izah edir. Praktika qeyd etmişkən, hər bir dərs
+            mütləq və mütləq nümunələr üzərində izah edilir, dərsdən sonra
+            müstəqil işləmək üçün tapşırıqlar verilir.Dərsdənkənar müstəqil
+            çalışmaları həll edərkən tələbənin sualları olarsa, müəllim köməklik
+            göstərir.
           </div>
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
@@ -96,23 +97,24 @@ export default function App() {
           </div>
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
-          <img src={Student1} alt="pic" />
+          <img src={Student4} alt="pic" />
           <h3 className="person">Ramazanlı Aytac</h3>
           <p className="watcher">
             <span>'coderra.az'</span>tələbəsi
           </p>
           <hr />
           <div className="personText">
-            Ramazan müəllimin keçdiyi front end dərsləri bir çox tədrisçilərin
-            keçdiyi dərslərdən müəyyən kriteriyalarına görə çox fərqlənir. Ən
-            bəsit mərhələlərin izahında belə Ramazan müəllim bizdən hər hansı
-            qaranlıq qalan məsələ haqqında suallarımızı verməyimizi istəyir,
-            sual yaranarsa belə tələbə tam başa düşənə və praktikada tətbiq edə
-            bilənə qədər təkrar izah edir. Praktika qeyd etmişkən, hər bir dərs
-            mütləq və mütləq nümunələr üzərində izah edilir, dərsdən sonra
-            müstəqil işləmək üçün tapşırıqlar verilir.Dərsdənkənar müstəqil
-            çalışmaları həll edərkən tələbənin sualları olarsa, müəllim köməklik
-            göstərir.
+            Bu səhifəni kəsf edəndən bəri heç bir dərsi qaçırmıram. Müəllim hər
+            bir şeyi en xırda ayrıntısına kimi izah edir . Heç bir sual işarəsi
+            qalmır ağılda . Həmçinin müəllim çox həvəslidir və buda bizi
+            öyrənmək istəyənləri çox motive edir. Hər beyninizdə yaranan sualı
+            ətraflı şəkildə izah olunur. Bundan əlavə dərslər recorda olunur
+            buda ayrı bir üstünlükdür. Və dərslər həftədə 2 dəfə hətta 3 dəfə də
+            olur. Müəllim çəkdiyi dərslər sayəsində bir çox şey öyrəndim.
+            Temennasız şekilde bir çox tələbənin bu sahəyə olan hevesini
+            canlandırdınız. Və bu özgüvəni yaratdınız .Bu sahəyə hevesi olan bir
+            çox gəncə öyrənmək üçün yol açdınız. Mən bu sehifeni kəşf etdiyim
+            üçün çox şanslıyam.Coderra.az xüsusi teşekkürlerimi bildirirəm.
           </div>
         </SwiperSlide>
       </Swiper>
