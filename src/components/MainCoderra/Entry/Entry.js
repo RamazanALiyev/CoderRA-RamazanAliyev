@@ -50,6 +50,7 @@ function Entry() {
             Müraciət Et
           </motion.button>
           <div className="socialIcons">
+            <a href="https://www.instagram.com/coderra.az/">
             <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
@@ -57,6 +58,8 @@ function Entry() {
             >
               <BsInstagram />
             </motion.div>
+            </a>
+            <a href='https://www.tiktok.com/@coderra.az?lang=en'>
             <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
@@ -64,6 +67,8 @@ function Entry() {
             >
               <FaTiktok />
             </motion.div>
+            </a>
+            <a href='https://chat.whatsapp.com/CEMKMP48HtPBubH0MS9tNI'>
             <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
@@ -71,6 +76,7 @@ function Entry() {
             >
               <BsWhatsapp />
             </motion.div>
+            </a>
           </div>
         </div>
         <div className="EntryRight">

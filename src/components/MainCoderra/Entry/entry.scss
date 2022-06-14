@@ -86,20 +86,24 @@ $breakpoint-phone: 600px;
         display: flex;
         justify-content: center;
         margin-top: 50px;
-        div {
-          width: 50px;
-          height: 50px;
-          border-radius: 50%;
-          background-color: #fff;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          margin: 0 20px;
-          cursor: pointer;
-          transition: 300ms all;
-          &:hover {
-            background-color: #2bc48a;
-            color: #fff;
+        a{
+          text-decoration: none;
+          color: #000;
+          div {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 20px;
+            cursor: pointer;
+            transition: 300ms all;
+            &:hover {
+              background-color: #2bc48a;
+              color: #fff;
+            }
           }
         }
       }
