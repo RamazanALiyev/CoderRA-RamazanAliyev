@@ -67,7 +67,7 @@ $breakpoint-phone: 600px;
           display: inline-block;
           letter-spacing: 1px;
           a{
-            text-decoration: none;
+            text-decoration: underline dashed red;
             color: crimson;
           }
         }

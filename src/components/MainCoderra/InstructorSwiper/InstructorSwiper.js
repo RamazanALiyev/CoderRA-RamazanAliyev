@@ -50,7 +50,7 @@ export default function App() {
             göstərə bilməyimdir. Buna görə ödənişsiz olaraq öz bilik çərçivəmdə
             bu məqsədimi reallaşdırmağa çalışıram. Düşünürəmki imkan daxilində
             hər birimiz bu kimi addımları atsaq cəmiyyətiiz üçün çox faydalı ola
-            bilər. Mənim haqqımda ümumi məlumatlar üçün Portfilo səhifəmə keçid
+            bilər. Mənim haqqımda ümumi məlumatlar üçün Portfolio səhifəmə keçid
             edə bilərsiniz!
           </div>
         </SwiperSlide>
