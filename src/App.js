@@ -9,6 +9,7 @@ import { Maincontext } from "./context";
 import { Routes, Route } from "react-router-dom";
 import Connect from "./pages/Connect/Connect";
 import Loading from './pages/Loading/Loading';
+import ToTop from "./components/MainCoderra/ScrollToTop/ToTop";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -37,6 +38,7 @@ function App() {
             <Route path="/studentswiper" element={<StudentSwiper />} />
             <Route path="/connect" element={<Connect />} />
           </Routes>
+          <ToTop/>
           <Footer />
         </div>
       )}
