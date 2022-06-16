@@ -8,23 +8,19 @@ function Apply() {
   const { setApply } = useContext(Maincontext);
 
   const form = useRef();
-
   const sendEmail = (e) =>{
     e.preventDefault();
-
     emailjs.sendForm('service_9lg8aql', 'template_8ws3ors', form.current, 'LwoqYB6NM1NvEQMhH')
       .then((result) => {
           console.log(result.text);
         }, (error) => {
           console.log(error.text);
     });
-
     e.target.reset();
   }
   
   const closeApplyForm = () => {
     setApply(false);
-    // document.getElementsByTagName("body")[0].style.overflow = "scroll";
   };
   return (
     <div className="common">
