@@ -5,8 +5,10 @@ import { motion } from "framer-motion";
 import { FcSearch } from "react-icons/fc";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { Link } from "react-router-dom";
+import { useContext, Maincontext } from "../../context";
 
 function Header() {
+  const { setSidebar } = useContext(Maincontext);
   const [color, setColor] = useState(false);
   const changeColor = () => {
     if (window.scrollY >= 90) {
@@ -21,6 +23,11 @@ function Header() {
     alert('Hal-Hazirda Axtarış Etmək Mümkün Deyil!')
     e.target.children[1].value = ''
   }
+  const openSidebar = () => {
+    setSidebar(true)
+    document.getElementsByTagName("body")[0].style.overflow = "hidden";
+  }
+
   const inputRef = useRef(null);
   return (
     <div className={color ? "Header Header-bg" : "Header"}>
@@ -35,7 +42,7 @@ function Header() {
               CoderRA
             </motion.h1>
           </Link>
-          <GiHamburgerMenu className="hamburger" />
+          <GiHamburgerMenu onClick={openSidebar} className="hamburger" />
         </div>
         <div className="HeaderNavbar">
           <motion.ul

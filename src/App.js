@@ -10,9 +10,11 @@ import { Routes, Route } from "react-router-dom";
 import Connect from "./pages/Connect/Connect";
 import Loading from './pages/Loading/Loading';
 import ToTop from "./components/MainCoderra/ScrollToTop/ToTop";
+import Sidebar from "./pages/Header/Sidebar/Sidebar";
 
 function App() {
-  const [loading, setLoading] = useState(true);
+  const [sidebar, setSidebar] = useState(false);
+  const [loading, setLoading] = useState(false);
   const [apply, setApply] = useState(false);
   const [forCourseApply, setForCourseApply] = useState(false);
   setTimeout(() => {
@@ -23,6 +25,8 @@ function App() {
     setApply,
     forCourseApply,
     setForCourseApply,
+    sidebar,
+    setSidebar,
   };
   return (
     <Maincontext.Provider value={data}>
@@ -31,6 +35,7 @@ function App() {
       ) : (
         <div className="App">
           <Header />
+          {sidebar && <Sidebar />}
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/courses" element={<Courses />} />
