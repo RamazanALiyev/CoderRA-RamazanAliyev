@@ -7,7 +7,7 @@ import { EffectCoverflow, Pagination, Autoplay } from "swiper";
 import Student1 from "../../../assets/Student1.jpeg";
 import Student2 from "../../../assets/Student2.jpeg";
 import Student3 from "../../../assets/Student3.jpeg";
-import Student4 from "../../../assets/Student4.jpeg";
+import StudentAnonimWoman from "../../../assets/Student4.jpeg";
 
 export default function App() {
   return (
@@ -97,7 +97,7 @@ export default function App() {
           </div>
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
-          <img src={Student4} alt="pic" />
+          <img src={StudentAnonimWoman} alt="pic" />
           <h3 className="person">Ramazanlı Aytac</h3>
           <p className="watcher">
             <span>'coderra.az'</span>tələbəsi
@@ -115,6 +115,27 @@ export default function App() {
             canlandırdınız. Və bu özgüvəni yaratdınız .Bu sahəyə hevesi olan bir
             çox gəncə öyrənmək üçün yol açdınız. Mən bu sehifeni kəşf etdiyim
             üçün çox şanslıyam.Coderra.az xüsusi teşekkürlerimi bildirirəm.
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className="swiper-slide">
+          <img src={StudentAnonimWoman} alt="pic" />
+          <h3 className="person">Gülbarə Əliyeva</h3>
+          <p className="watcher">
+            <span>'coderra.az'</span>tələbəsi
+          </p>
+          <hr />
+          <div className="personText">
+            Mən bu dərslərə qoşulan zaman demək olar ki, həm html,həm də css
+            haqqında çox az məlumatım var idi.Dərslər çox aydın və hər kəsin
+            rahatlıqla öyrənə biləcəyi şəkildə keçirilir.İstər dərs
+            müddətində,istərsə dərsdən əlavə zamanda bütün suallarımızı verə
+            bilirik.Müəllimə bütün suallarımızı çox dəqiq və rahat şəkildə izah
+            etdiyi üçün təşəkkür edirəm✨Həmçinin hər dərsdən sonra ev
+            tapşırıqlarının verilməsi və dərs izahı zamanı hər bir qaydaya uyğun
+            nümunələr göstərilməsi də çox böyük üstünlükdür.Çünki dərs zamanı
+            öyrəndiklərimizi praktika ilə daha çox inkişaf etdirə bilirik.Bu
+            dərslər mənə xüsusilə universitet dərslərində və final imtahanında
+            çox kömək oldu. Hər şey üçün təşəkkür edirəm🌼
           </div>
         </SwiperSlide>
       </Swiper>

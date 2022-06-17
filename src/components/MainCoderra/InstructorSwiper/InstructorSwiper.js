@@ -42,7 +42,7 @@ export default function App() {
             və Sənaye Universitetinin Neft Mexanika fakültəsinin Mexanika
             Mühəndisliyi ixtisası təhsilinin bakalavr və magistr dərəcələrində
             təhsil almışam. CoderRA-nın TeamLeader-i və qurucusuyam. Eyni
-            zamanda CoderRA-da Təlimçi vəzifəsində istirak edirəm. İstisasım
+            zamanda CoderRA-da Təlimçi vəzifəsində istirak edirəm. İxtisasım
             fərqli kontentdə olsada proqramlaşdırmaya olan marağm nəticəsində
             artıq 1 ildən çox olaraq Front-End Proqramlaşırma sahəsindəyəm.
             İlkin olaraq məqsədim Front-End Proqramlaşdırma öyrənmək istəyən

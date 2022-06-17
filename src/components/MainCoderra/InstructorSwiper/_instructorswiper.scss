@@ -1,13 +1,13 @@
 $breakpoint-phone: 600px;
-.swiper-slide.swiper-slide-visible.swiper-slide-active{
+.swiper-slide.swiper-slide-visible.swiper-slide-active {
   border: 1px solid lightblue;
   border-radius: 15px;
 }
-.swiper-slide.swiper-slide-visible.swiper-slide-next{
+.swiper-slide.swiper-slide-visible.swiper-slide-next {
   background-image: linear-gradient(to top, lightblue, lightgray);
   border-radius: 15px;
 }
-.swiper-slide.swiper-slide-visible.swiper-slide-prev{
+.swiper-slide.swiper-slide-visible.swiper-slide-prev {
   background-image: linear-gradient(to top, lightblue, lightgray);
   border-radius: 15px;
 }
@@ -21,7 +21,7 @@ $breakpoint-phone: 600px;
     font-size: 34px;
     color: #2e3a59;
   }
-  p.about{
+  p.about {
     text-align: center;
     font-size: 26px;
     color: gray;
@@ -57,7 +57,7 @@ $breakpoint-phone: 600px;
           shape-outside: circle(50%);
         }
         .person {
-          font-family: "Courgette", cursive;
+          font-family: "Dancing Script", cursive;
           font-weight: 600;
           color: crimson;
           font-size: 22px;
@@ -66,9 +66,10 @@ $breakpoint-phone: 600px;
           margin-right: 10px;
           display: inline-block;
           letter-spacing: 1px;
-          a{
-            text-decoration: underline dashed red;
+          a {
             color: crimson;
+            padding-bottom: 20px;
+            text-decoration: none;
           }
         }
         .watcher {
@@ -92,28 +93,28 @@ $breakpoint-phone: 600px;
     }
   }
 }
-.Swiper.swi{
+.Swiper.swi {
   @media (max-width: $breakpoint-phone) {
-    padding: 120px 10px; 
+    padding: 120px 10px;
     height: 100vh;
   }
 }
-.Swiper.swi .mySwiper .swiper-wrapper{
+.Swiper.swi .mySwiper .swiper-wrapper {
   transform-style: flat;
 }
-.Swiper.swi .mySwiper .swiper-wrapper .swiper-slide{
+.Swiper.swi .mySwiper .swiper-wrapper .swiper-slide {
   @media (max-width: $breakpoint-phone) {
     width: 100%;
-    img{
+    img {
       width: 30%;
       height: 25%;
       object-fit: cover;
     }
-    .person{
+    .person {
       width: 64%;
       text-align: center;
     }
-    .watcher{
+    .watcher {
       width: 55%;
       margin-top: 5px;
     }
