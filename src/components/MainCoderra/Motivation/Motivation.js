@@ -11,7 +11,7 @@ function Motivation() {
           <Link className="link" to='/courses'><h5>CoderRA-a gəl</h5></Link>
         </div>
         <div className="right">
-        <iframe width="600" height="400" src="https://www.youtube.com/embed/Jk1CEXwwrt8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="600" height="400" src="https://www.youtube.com/embed/Jk1CEXwwrt8" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
         </div>
       </div>
     </div>

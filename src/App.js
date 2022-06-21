@@ -11,6 +11,7 @@ import Connect from "./pages/Connect/Connect";
 import Loading from "./pages/Loading/Loading";
 import ToTop from "./components/MainCoderra/ScrollToTop/ToTop";
 import Sidebar from "./pages/Header/Sidebar/Sidebar";
+import CourseDetail from "./pages/CourseDetail/CourseDetail";
 
 function App() {
   const [sidebar, setSidebar] = useState(false);
@@ -42,6 +43,7 @@ function App() {
             <Route path="/instructorswiper" element={<InstructorSwiper />} />
             <Route path="/studentswiper" element={<StudentSwiper />} />
             <Route path="/connect" element={<Connect />} />
+            <Route path="/coursedetail" element={<CourseDetail />} />
           </Routes>
           <ToTop />
           <Footer />

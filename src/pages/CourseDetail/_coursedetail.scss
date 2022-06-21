@@ -20,12 +20,7 @@ $breakpoint-phone: 600px;
     text-align: center;
     font-size: 34px;
     color: #2e3a59;
-  }
-  p.about {
-    text-align: center;
-    font-size: 26px;
-    color: gray;
-    margin: 20px 0;
+    margin-bottom: 20px;
   }
   .mySwiper {
     width: 100%;
@@ -46,48 +41,23 @@ $breakpoint-phone: 600px;
         &::-webkit-scrollbar {
           display: none;
         }
-        img {
-          display: block;
-          width: 22%;
-          height: 40%;
-          border-radius: 50%;
-          float: left;
-          object-fit: cover;
-          margin: 0 15px 5px 0;
-          shape-outside: circle(50%);
-        }
-        .person {
-          font-family: "Dancing Script", cursive;
-          font-weight: 600;
-          color: crimson;
-          font-size: 22px;
-          text-align: end;
-          width: 40%;
-          margin-right: 10px;
-          display: inline-block;
-          letter-spacing: 1px;
-          a {
-            color: crimson;
-            padding-bottom: 20px;
-            text-decoration: none;
-          }
-        }
-        .watcher {
-          text-align: center;
-          display: inline-block;
-          font-family: "Lato", sans-serif;
-          font-style: italic;
-          span {
-            color: dodgerblue;
-            margin-right: 3px;
-          }
-        }
         .personText {
           font-size: 14px;
           line-height: 20px;
           font-family: "Roboto", sans-serif;
           font-weight: 300;
           letter-spacing: 1px;
+          h2.subjectTitle{
+            text-align: center;
+            font-weight: 700;
+          }
+          p.subjectText{
+            padding: 10px 30px;
+            @media (max-width: $breakpoint-phone) {
+              padding: 10px;
+              letter-spacing: 1px;
+            }
+          }
         }
       }
     }
@@ -96,7 +66,7 @@ $breakpoint-phone: 600px;
 .Swiper.swi {
   @media (max-width: $breakpoint-phone) {
     padding: 120px 10px;
-    height: 120vh;
+    height: 100vh;
   }
 }
 .Swiper.swi .mySwiper .swiper-wrapper {
@@ -105,18 +75,6 @@ $breakpoint-phone: 600px;
 .Swiper.swi .mySwiper .swiper-wrapper .swiper-slide {
   @media (max-width: $breakpoint-phone) {
     width: 100%;
-    img {
-      width: 30%;
-      height: 25%;
-      object-fit: cover;
-    }
-    .person {
-      width: 64%;
-      text-align: center;
-    }
-    .watcher {
-      width: 55%;
-      margin-top: 5px;
-    }
+    height: 60vh;
   }
 }

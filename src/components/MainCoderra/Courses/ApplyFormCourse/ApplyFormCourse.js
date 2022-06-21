@@ -1,26 +1,31 @@
-import React, {useRef, useState} from "react";
+import React, { useRef, useState } from "react";
 import "./_applyformcourse.scss";
-import emailjs from '@emailjs/browser';
+import emailjs from "@emailjs/browser";
 import { Maincontext, useContext } from "../../../../context";
 import { GiSplitCross } from "react-icons/gi";
 
 function ApplyFormCourse() {
-  const [status, setStatus] = useState(null)
-
+  const [status, setStatus] = useState(null);
   const form = useRef();
-
-  const sendEmail = (e) =>{
+  const sendEmail = (e) => {
     e.preventDefault();
-
-    emailjs.sendForm('service_9lg8aql', 'template_7qy5qyq', form.current, 'LwoqYB6NM1NvEQMhH')
-      .then((result) => {
+    emailjs
+      .sendForm(
+        "service_9lg8aql",
+        "template_7qy5qyq",
+        form.current,
+        "LwoqYB6NM1NvEQMhH"
+      )
+      .then(
+        (result) => {
           console.log(result.text);
-        }, (error) => {
+        },
+        (error) => {
           console.log(error.text);
-    });
-
+        }
+      );
     e.target.reset();
-}
+  };
 
   const { setForCourseApply } = useContext(Maincontext);
   return (
@@ -41,7 +46,12 @@ function ApplyFormCourse() {
           </div>
           <div className="email">
             <label>E-Poçt</label>
-            <input required type="email" name="email" placeholder="Daxil Edin" />
+            <input
+              required
+              type="email"
+              name="email"
+              placeholder="Daxil Edin"
+            />
           </div>
           <div className="text">
             <label>Telefon</label>
@@ -49,19 +59,28 @@ function ApplyFormCourse() {
           </div>
           <div className="select">
             <label>Kurs</label>
-            <select onChange={(e) => setStatus(e.target.value)} name='status' value={status}>
+            <select
+              onChange={(e) => setStatus(e.target.value)}
+              name="status"
+              value={status}
+            >
               <optgroup label="Front-End Proqramlaşdırma">
-                <option value="Html, Css, Bootstrap" name={status}>Html, Css, Bootstrap</option>
-                <option value="Html, Css, Bootstrap, Sass/Scss, Git, Github, Javascript" name={status}>
+                <option value="Html, Css, Bootstrap" name={status}>
+                  Html, Css, Bootstrap
+                </option>
+                <option
+                  value="Html, Css, Bootstrap, Sass/Scss, Git, Github, Javascript"
+                  name={status}
+                >
                   Html, Css, Bootstrap, Sass/Scss, Git, Github, Javascript
                 </option>
-                <option value="Html, Css, Bootstrap, Sass/Scss, Git, Github, Javascript,
-                  React Js, TypeScript" name={status}>
+                <option
+                  value="Html, Css, Bootstrap, Sass/Scss, Git, Github, Javascript,
+                  React Js, TypeScript"
+                  name={status}
+                >
                   Html, Css, Bootstrap, Sass/Scss, Git, Github, Javascript,
-                  React Js, TypeScript
-                </option>
-                <option value="Final Project" name={status}>
-                  Final Project
+                  React Js, TypeScript, Final Project
                 </option>
               </optgroup>
             </select>

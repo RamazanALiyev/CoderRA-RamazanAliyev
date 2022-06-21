@@ -18,10 +18,9 @@ function Courses() {
           <p>Tədris etdiyimiz kurslar</p>
         </div>
         <div className="bottom">
-          <CourseName time='2 ay' payment='Aylıq: ? ₼' name="Html, Css, Bootstrap" />
-          <CourseName time='6 ay' payment='Aylıq: ? ₼' name="Html, Css, Bootstrap, Sass/Scss, Git, Github, Javascript" />
-          <CourseName time='8 ay' payment='Aylıq: ? ₼' name="Html, Css, Bootstrap, Sass/Scss, Git, Github, Javascript, React Js, TypeScript" />
-          <CourseName time='10 ay' payment='Aylıq: ? ₼' name="Final Project" />
+          <CourseName time='2 ay' payment='Aylıq: 75 ₼' name="Html, Css, Bootstrap" />
+          <CourseName time='6 ay' payment='Aylıq: 75 ₼' name="Html, Css, Bootstrap, Sass/Scss, Git, Github, Javascript" />
+          <CourseName time='8 ay' payment='Aylıq: 75 ₼' name="Html, Css, Bootstrap, Sass/Scss, Git, Github, Javascript, React Js, Final Project" />
         </div>
         <button className="mainBtn" onClick={showforCourseApply}>İndi Müraciət Et</button>
       </div>

@@ -2,7 +2,7 @@ import React from "react";
 import { BsInstagram, BsWhatsapp } from "react-icons/bs";
 import { FaTiktok } from "react-icons/fa";
 import "./entry.scss";
-import ramazan from "../../../assets/ramazan 1.svg";
+// import ramazan from "../../../assets/RamazanBuz.png";
 import { motion } from "framer-motion";
 import Apply from "../Apply/Apply";
 import { Maincontext, useContext } from "../../../context";
@@ -15,7 +15,6 @@ function Entry() {
   };
   const ShowApplyForm = () => {
     setApply(true);
-    // document.getElementsByTagName("body")[0].style.overflow = "hidden";
   };
   return (
     <div className="Entry">
@@ -81,9 +80,10 @@ function Entry() {
             </a>
           </div>
         </div>
-        <div className="EntryRight">
-          <motion.img src={ramazan} alt="personpicture" initial={{ x: 600 }} animate={{ x: 0 }} transition={{ delay: 1.4, type: "spring", stiffness: 50 }}/>
-        </div>
+        <motion.div className="EntryRight"
+        initial={{ x: 600 }} animate={{ x: 0 }} transition={{ delay: 1.4, type: "spring", stiffness: 50 }}
+        >
+        </motion.div>
       </div>
     </div>
   );

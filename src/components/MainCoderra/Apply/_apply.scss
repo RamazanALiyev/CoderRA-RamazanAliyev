@@ -19,7 +19,7 @@ $breakpoint-phone: 600px;
   .center {
     @media (max-width: $breakpoint-phone) {
       width: 95%;
-      height: 95%;
+      height: 80%;
     }
     width: 80%;
     height: 80%;
@@ -68,6 +68,9 @@ $breakpoint-phone: 600px;
           display: flex;
           flex-direction: column;
           margin-bottom: 20px;
+          @media (max-width: $breakpoint-phone) {
+            margin-bottom: 10px;
+          }
           &:nth-child(4) {
             input {
               &::placeholder {
@@ -83,6 +86,9 @@ $breakpoint-phone: 600px;
             line-height: 16px;
             color: #2e3a59;
             margin-bottom: 10px;
+            @media (max-width: $breakpoint-phone) {
+              margin-bottom: 0px;
+            }
           }
           input {
             background: #f7f9fc;
@@ -127,6 +133,7 @@ $breakpoint-phone: 600px;
           margin-top: 20px;
           @media (max-width: $breakpoint-phone) {
             height: 120px;
+            margin-top: 0;
           }
         }
         label.second {
