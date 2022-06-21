@@ -1,6 +1,6 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import ramazan from "../../../assets/ramazan 1.svg";
+import ramazan from "../../../assets/RamazanBuz.png"
 import "./_instructorswiper.scss";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
