@@ -1,6 +1,6 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import ramazan from "../../../assets/RamazanBuz.png"
+import ramazan from "../../../assets/RamazanBuz.png";
 import "./_instructorswiper.scss";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
@@ -32,7 +32,9 @@ export default function App() {
       >
         <SwiperSlide className="swiper-slide">
           <img src={ramazan} alt="pic" />
-          <h3 className="person"><a href="https://ramazanaliyev.netlify.app/">Ramazan Aliyev</a></h3>
+          <h3 className="person">
+            <a href="https://ramazanaliyev.netlify.app/">Ramazan Aliyev</a>
+          </h3>
           <p className="watcher">
             <span>'coderra.az'</span>təlimçisi
           </p>
@@ -40,18 +42,18 @@ export default function App() {
           <div className="personText">
             Salam, mənim adım Ramazandır. 24 yaşım var. Azərbaycan Dövlət Neft
             və Sənaye Universitetinin Neft Mexanika fakültəsinin Mexanika
-            Mühəndisliyi ixtisası təhsilinin bakalavr və magistr dərəcələrində
-            təhsil almışam. CoderRA-nın TeamLeader-i və qurucusuyam. Eyni
-            zamanda CoderRA-da Təlimçi vəzifəsində istirak edirəm. İxtisasım
-            fərqli kontentdə olsada proqramlaşdırmaya olan marağm nəticəsində
-            artıq 1 ildən çox olaraq Front-End Proqramlaşırma sahəsindəyəm.
-            İlkin olaraq məqsədim Front-End Proqramlaşdırma öyrənmək istəyən
+            Mühəndisliyi ixtisası üzrə bakalavr və magistr dərəcələrində təhsil
+            almışam. CoderRA-nın TeamLeader-i və qurucusuyam. Eyni zamanda
+            CoderRA-da Təlimçi vəzifəsində iştirak edirəm. İxtisasım fərqli
+            kontentdə olsada, proqramlaşdırmaya olan marağım nəticəsində artıq 1
+            ildən çox olaraq Front-End Proqramlaşdırma sahəsindəyəm. İlkin
+            olaraq məqsədim Front-End Proqramlaşdırma öyrənmək istəyən
             dostlarımıza dəstək olmaq və onlara bu yolda maksimum köməklik
-            göstərə bilməyimdir. Buna görə ödənişsiz olaraq öz bilik çərçivəmdə
-            bu məqsədimi reallaşdırmağa çalışıram. Düşünürəmki imkan daxilində
-            hər birimiz bu kimi addımları atsaq cəmiyyətiiz üçün çox faydalı ola
-            bilər. Mənim haqqımda ümumi məlumatlar üçün Portfolio səhifəmə keçid
-            edə bilərsiniz!
+            göstərə bilməyimdir. Buna görə də ödənişsiz olaraq öz bilik
+            çərçivəmdə bu məqsədimi reallaşdırmağa çalışıram. Düşünürəmki imkan
+            daxilində hər birimiz bu kimi addımları atsa cəmiyyətimiz üçün çox
+            faydalı ola bilər. Mənim haqqımda ümumi məlumatlar üçün Portfolio
+            səhifəmə keçid edə bilərsiniz!
           </div>
         </SwiperSlide>
       </Swiper>

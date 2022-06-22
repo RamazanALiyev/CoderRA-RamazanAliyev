@@ -4,8 +4,11 @@ import emailjs from "@emailjs/browser";
 import { GoLocation, GoClock } from "react-icons/go";
 import { AiFillPhone } from "react-icons/ai";
 import { FiMail } from "react-icons/fi";
+import { useLocation } from "react-router-dom";
 
 function Connect() {
+  const param = useLocation();
+  console.log(param.pathname);
   const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();

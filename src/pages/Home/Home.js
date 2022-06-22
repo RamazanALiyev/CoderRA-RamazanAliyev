@@ -5,6 +5,7 @@ import Courses from '../../components/MainCoderra/Courses/Courses';
 import Motivation from '../../components/MainCoderra/Motivation/Motivation';
 import InstructorSwiper from '../../components/MainCoderra/InstructorSwiper/InstructorSwiper';
 import SwiperStudent from '../../components/MainCoderra/StudentSwiper/StudentSwiper';
+import Newsabout from "../../components/MainCoderra/Newsabout/Newsabout";
 
 function Home() {
   useEffect(() =>{
@@ -20,6 +21,7 @@ function Home() {
       <Motivation />
       <InstructorSwiper />
       <SwiperStudent />
+      <Newsabout />
     </div>
   );
 }
