@@ -5,6 +5,7 @@ import { GoLocation, GoClock } from "react-icons/go";
 import { AiFillPhone } from "react-icons/ai";
 import { FiMail } from "react-icons/fi";
 import { useLocation } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 function Connect() {
   const param = useLocation();
@@ -32,6 +33,9 @@ function Connect() {
 
   return (
     <div className="Connect">
+      <Helmet>
+        <title>Əlaqə</title>
+      </Helmet>
       <div className="center">
         <div className="connectInfo">
           <div className="eachDiv">

@@ -4,10 +4,13 @@ import "./_coursedetail.scss";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import { EffectCoverflow, Pagination, Autoplay } from "swiper";
-
+import { Helmet } from "react-helmet";
 export default function App() {
   return (
     <div className="Swiper swi">
+      <Helmet>
+        <title>Mövzular</title>
+      </Helmet>
       <h3 className="students">Mövzular</h3>
       <Swiper
         autoplay={{
