@@ -12,21 +12,21 @@ function Header() {
   const [color, setColor] = useState(false);
   const changeColor = () => {
     if (window.scrollY >= 90) {
-      setColor('true');
+      setColor("true");
     } else {
-      setColor('false');
+      setColor("false");
     }
   };
   window.addEventListener("scroll", changeColor);
   const popupOpen = (e) => {
-    e.preventDefault()
-    alert('Hal-Hazirda Axtarış Etmək Mümkün Deyil!')
-    e.target.children[1].value = ''
-  }
+    e.preventDefault();
+    alert("Hal-Hazirda Axtarış Etmək Mümkün Deyil!");
+    e.target.children[1].value = "";
+  };
   const openSidebar = () => {
-    setSidebar(true)
+    setSidebar(true);
     document.getElementsByTagName("body")[0].style.overflow = "hidden";
-  }
+  };
 
   const inputRef = useRef(null);
   return (

@@ -12,12 +12,14 @@ import Loading from "./pages/Loading/Loading";
 import ToTop from "./components/MainCoderra/ScrollToTop/ToTop";
 import Sidebar from "./pages/Header/Sidebar/Sidebar";
 import CourseDetail from "./pages/CourseDetail/CourseDetail";
+import { useAutoAnimate } from "@formkit/auto-animate/react";
 
 function App() {
   const [sidebar, setSidebar] = useState(false);
   const [loading, setLoading] = useState(true);
   const [apply, setApply] = useState(false);
   const [forCourseApply, setForCourseApply] = useState(false);
+  const [animationParent] = useAutoAnimate();
   setTimeout(() => {
     setLoading(false);
   }, 5000);
@@ -34,7 +36,7 @@ function App() {
       {loading ? (
         <Loading />
       ) : (
-        <div className="App">
+        <div ref={animationParent} className="App">
           <Header />
           {sidebar && <Sidebar />}
           <Routes>
