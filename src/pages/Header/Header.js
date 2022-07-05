@@ -6,6 +6,7 @@ import { FcSearch } from "react-icons/fc";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { Link } from "react-router-dom";
 import { useContext, Maincontext } from "../../context";
+import logo from "../../assets/undraw_dev_focus_re_6iwt.svg";
 
 function Header() {
   const { setSidebar } = useContext(Maincontext);
@@ -39,7 +40,8 @@ function Header() {
               animate={{ x: -10 }}
               transition={{ delay: 0.2, type: "spring", stiffness: 50 }}
             >
-              CoderRA
+              <img src={logo} alt="pic" />
+              <span>CoderRA</span>
             </motion.h1>
           </Link>
           <GiHamburgerMenu onClick={openSidebar} className="hamburger" />

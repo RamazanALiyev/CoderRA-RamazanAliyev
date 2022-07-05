@@ -19,18 +19,27 @@ function Courses() {
         <div className="bottom">
           <CourseName
             time="2 ay"
-            payment="Aylıq: 50 ₼"
+            payment="Aylıq: 100 ₼"
             name="Html, Css, Bootstrap"
+            merhele="1-ci mərhələ"
           />
           <CourseName
             time="4 ay"
-            payment="Aylıq: 50 ₼"
-            name="Html, Css, Bootstrap, Sass/Scss, Git, Github, Javascript"
+            payment="Aylıq: 100 ₼"
+            name="Html, Css, Bootstrap, Sass/Scss, Git, Javascript"
+            merhele="2-ci mərhələ"
+          />
+          <CourseName
+            time="6 ay"
+            payment="Aylıq: 100 ₼"
+            name="Html, Css, Bootstrap, Sass/Scss, Git, Javascript, React Js"
+            merhele="3-cü mərhələ"
           />
           <CourseName
             time="7 ay"
-            payment="Aylıq: 50 ₼"
-            name="Html, Css, Bootstrap, Sass/Scss, Git, Github, Javascript, React Js, Final Project"
+            payment="Aylıq: 100 ₼"
+            name="Final Project"
+            merhele="4-cü mərhələ"
           />
         </div>
         <button className="mainBtn" onClick={showforCourseApply}>

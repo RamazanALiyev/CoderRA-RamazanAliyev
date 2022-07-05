@@ -2,7 +2,6 @@ import React from "react";
 import { BsInstagram, BsWhatsapp } from "react-icons/bs";
 import { FaTiktok } from "react-icons/fa";
 import "./entry.scss";
-// import ramazan from "../../../assets/RamazanBuz.png";
 import { motion } from "framer-motion";
 import Apply from "../Apply/Apply";
 import { Maincontext, useContext } from "../../../context";
@@ -81,7 +80,7 @@ function Entry() {
           </div>
         </div>
         <motion.div className="EntryRight"
-        initial={{ x: 600 }} animate={{ x: 0 }} transition={{ delay: 1.4, type: "spring", stiffness: 50 }}
+        initial={{ x: 680 }} animate={{ x: 0 }} transition={{ delay: 1.4, type: "spring", stiffness: 50 }}
         >
         </motion.div>
       </div>

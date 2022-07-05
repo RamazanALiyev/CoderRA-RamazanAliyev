@@ -16,7 +16,7 @@ function Sidebar() {
       <div>
         <div className="sidebar-header">
           <Link onClick={closeSidebar} className="titleLink" to="/">
-            <h1 className="title">CoderRA</h1>
+            <h1 className="title">CoderRA </h1>
           </Link>
           <GiCancel onClick={closeSidebar} className="cancel" />
         </div>

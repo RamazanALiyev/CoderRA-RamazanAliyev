@@ -121,9 +121,10 @@ $breakpoint-phone: 600px;
       display: flex;
       justify-content: center;
       align-items: center;
-      background-image: url('../../../assets/RamazanBuz.png');
+      background-image: url('../../../assets/coderramain.svg');
       background-repeat: no-repeat;
       background-position: center;
+      background-size: contain;
       @media (max-width: $breakpoint-phone) {
         display: none;
       }

@@ -2,12 +2,13 @@ import React from "react";
 import "./_coursename.scss";
 import { Link } from 'react-router-dom'
 
-function CourseName({ name, payment, time }) {
+function CourseName({ name, payment, time, merhele }) {
   return (
     <Link className="linkCourse" to='/coursedetail'>
       <div className="CourseName">
         <h4>Front-End Proqramlaşdırma</h4>
         <p>{name}</p>
+        <p>{merhele}</p>
         <div>
           <span className="payment">{time}</span>
           <span className="time">{payment}</span>
