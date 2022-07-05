@@ -8,11 +8,7 @@ function Loading() {
       <Helmet>
         <title>Loading</title>
       </Helmet>
-      <div className="loader-wrapper">
-        <div className="loader">
-          <div className="loader loader-inner"></div>
-        </div>
-      </div>
+      <div class="loader"></div>
     </div>
   );
 }
