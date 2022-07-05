@@ -8,7 +8,7 @@ function Loading() {
       <Helmet>
         <title>Loading</title>
       </Helmet>
-      <div class="loader"></div>
+      <div className="loader"></div>
     </div>
   );
 }
