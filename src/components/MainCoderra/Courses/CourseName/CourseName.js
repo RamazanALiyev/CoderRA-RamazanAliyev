@@ -7,8 +7,8 @@ function CourseName({ name, payment, time, merhele }) {
     <Link className="linkCourse" to='/coursedetail'>
       <div className="CourseName">
         <h4>Front-End Proqramlaşdırma</h4>
-        <p>{name}</p>
         <p>{merhele}</p>
+        <p>{name}</p>
         <div>
           <span className="payment">{time}</span>
           <span className="time">{payment}</span>

@@ -32,14 +32,15 @@ $breakpoint-phone: 600px;
       margin-bottom: 10px;
     }
     p {
-      color: #000;
+      color: crimson;
       text-align: center;
       font-size: 14px;
       line-height: 20px;
       padding: 0 80px;
-      font-family: "Montserrat", sans-serif;
-      &:nth-child(3){
+      font-family: "Courgette", cursive;
+      &:nth-child(3) {
         margin-top: 10px;
+        color: #000;
       }
       @media (max-width: $breakpoint-phone) {
         padding: 0;
